@@ -20,3 +20,23 @@ export const headerListItem = [
     link: '/admin',
   },
 ]
+
+export const footerList = [
+  {
+    _id: 111,
+    title: '문의하기',
+    link: '#',
+    icon: true,
+  },
+  {
+    _id: 112,
+    title: '전자상거래 거래법',
+    link: '#',
+    icon: true,
+  },
+  {
+    _id: 113,
+    title: '개인 정보 정책',
+    link: '#',
+  },
+]
