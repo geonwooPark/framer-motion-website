@@ -12,8 +12,9 @@ export default function FadeIn({ children }: { children: React.ReactNode }) {
     <motion.div
       variants={variants}
       initial="hidden"
-      animate="visible"
-      transition={{ duration: 0.2 }}
+      whileInView="visible"
+      viewport={{ once: true, margin: '0px 0px -200px' }}
+      transition={{ duration: 0.3 }}
     >
       {children}
     </motion.div>
