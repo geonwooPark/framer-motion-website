@@ -15,7 +15,7 @@ export default function Header() {
 
   return (
     <div className="h-20 w-full border-b border-gray-500 bg-white text-sm">
-      <div className="mx-auto flex h-full max-w-screen-2xl items-center justify-between">
+      <div className="mx-auto flex h-full max-w-screen-2xl items-center justify-between px-4">
         {/* logo */}
         <Link href={'/'}>
           <span className="relative inline-block before:absolute before:-inset-1.5 before:block before:-skew-y-3 before:bg-primaryColor">
