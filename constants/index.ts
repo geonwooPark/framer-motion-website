@@ -16,8 +16,8 @@ export const headerListItem = [
   },
   {
     _id: '104',
-    title: '관리자',
-    link: '/admin',
+    title: '디렉터',
+    link: '/director',
   },
 ]
 
